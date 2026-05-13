@@ -1,0 +1,6 @@
+marimo>=0.17
+numpy
+xarray
+matplotlib
+cartopy
+netcdf4

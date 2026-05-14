@@ -42,7 +42,7 @@ def _(os):
     """Paths — NASEM root is one level up from CODE/."""
     PROJ = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
     SUMMARY_NC = os.path.join(PROJ, 'DATA', 'USDM_drought_events_summary.nc')
-    MASK_NC    = os.path.join(PROJ, DATA', 'state_masks_0p125deg.nc')
+    MASK_NC    = os.path.join(PROJ, 'DATA', 'state_masks_0p125deg.nc')
     return MASK_NC, SUMMARY_NC
 
 
